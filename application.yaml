@@ -1,15 +1,9 @@
 openapi:
-  title: Users API
-  description: Microservicio de usuarios gestionado desde Config Server
+  title: Microservices API
   version: 1.0.0
-  contact:
-    name: Alex Taquila
-    email: atc757@inlumine.ual.es
-    url: https://es.linkedin.com/in/alextaquilacamasca
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/dwsc
-    username: estudiante
-    password: estudiante
-    driver-class-name: org.postgresql.Driver
+
+logging:
+  level:
+    root: INFO
+
 test-attribute: NewValueFromSampleClientProperties

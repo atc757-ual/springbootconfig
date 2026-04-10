@@ -6,4 +6,10 @@ openapi:
     name: Alex Taquila
     email: atc757@inlumine.ual.es
     url: https://es.linkedin.com/in/alextaquilacamasca
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dwsc
+    username: estudiante
+    password: estudiante
+    driver-class-name: org.postgresql.Driver
 test-attribute: NewValueFromSampleClientProperties
